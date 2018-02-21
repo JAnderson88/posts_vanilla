@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.boards{
+  display: flex;
+  margin: 0vh 20px 0vh 20px;
+}
+.posts{
+  min-width: 60%;
+  margin-right: 10px;
+}
+.deleted{
+  min-width: 39%;
+  margin-left: 10px;
+}
+.boards p{
+  font-size: 16px;
+  font-weight: bold;
+}
+.posts p{
+  background-color: #FFEEEC;
+}
+.deleted p{
+  background-color: #ECEEFF;
+}
+.post{
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+
+.post .cont{
+  display: flex;
+  justify-content: space-between;
+}
+
+.post ul{
+  list-style: none;
+}
+.post .newComm{
+  min-width: 20vw;
+}
+.post .btnContain{
+  padding-top: 2vh;
+}
+.addPost{
+  margin-left: 20px;
+}
